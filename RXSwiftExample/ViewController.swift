@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         /// en el cierre, especifica cómo desea manejar los diferentes eventos que emite la secuencia. En este caso, independientemente del tipo de evento, estamos imprimiendo el evento en la consola
         
         let subscription = observableSequence.subscribe({ (event: Event<String>) in
-                        print(event)
+                        //print("Events: \(event)")
                     })
         /*
          -next(Element) — cuando la secuencia itera sobre un elemento, enviará el siguiente evento, con el elemento como un valor asociado

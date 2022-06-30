@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="1028.985507246377" y="79.6875"/>
         </scene>
-        <!--View Controller-->
+        <!--Subjects View Controller-->
         <scene sceneID="ai8-hm-aOe">
             <objects>
-                <viewController id="0p5-69-5XJ" sceneMemberID="viewController">
+                <viewController id="0p5-69-5XJ" customClass="SubjectsViewController" customModule="RXSwiftExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BEy-Dj-3vg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
